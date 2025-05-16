@@ -1,0 +1,438 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-size: small;
+}
+
+.reg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(88, 84, 79);
+}
+
+.reg h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+}
+
+.formReg {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.formRegElem  {
+    display: flex;
+    flex-direction: column;
+}
+
+.formRegElem label {
+    margin-top: 1vh;
+
+}
+
+.formRegElem input {
+    height: 3vh;
+    border-radius: 10px;
+}
+
+.formRegElem input:hover {
+    border-color: rgb(255, 180, 88);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.links a {
+    color: black;
+}
+
+.links a:hover {
+    color: rgb(255, 180, 88);
+}
+
+.links button {
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(88, 84, 79);
+    color: white;
+    margin-left: 1%;
+}
+
+.links button:hover {
+    background-color: rgb(255, 180, 88);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(88, 84, 79);
+}
+
+header h1 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 5vw;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10vw;
+    width: 10vw;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+}
+
+header div a:hover {
+    text-decoration: underline;
+}
+
+
+
+.content {
+    margin-top: 14vh;
+}
+
+.contmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid rgb(88, 84, 79);
+    border-radius: 10px;
+    width: 60vw;
+    margin-top: 5vh;
+}
+
+.card div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 1vw;
+}
+
+#stat {
+    margin-right: 1vw;
+}
+
+
+.btn-new {
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(88, 84, 79);
+    color: white;
+    margin-top: 5vh;
+}
+
+.btn-new:hover {
+    background-color: rgb(255, 180, 88);
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.cardsZwei {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+.cardZwei {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.cardZwei label {
+    margin-bottom: 1vh;
+}
+
+.cardZwei input, select {
+    height: 3vh;
+    border-radius: 10px;
+}
+
+.cardZwei input:hover {
+    border-color: rgb(255, 180, 88);
+}
+
+.cardZwei select:hover {
+    border-color: rgb(255, 180, 88);
+}
+
+
+.contzayav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardZwei input {
+    height: 3vh;
+    border-radius: 10px;
+    width: 10vw;
+}
+
+.cardZwei select {
+    width: 11vw;
+}
+
+.buttons {
+    margin-top: 5vh;
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button {
+    height: 4vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(88, 84, 79);
+    color: white;
+}
+
+.buttons button:hover {
+    background-color: rgb(255, 180, 88);
+    color: black;
+    cursor: pointer;
+}
+
+#new {
+    color: rgb(153, 255, 0);
+}
+
+#proc {
+    color: yellow;
+}
+
+#zav {
+    color: gray;
+}
+
+#otm {
+    color: red;
+}
+
+.selad {
+    margin-right: 1vw;
+}
+
+.selad:hover {
+    border-color: rgb(255, 161, 46);
+}
+
+#cardad {
+    width: 80vw;
+}
+
+@media(max-width: 1450px) {
+    header div {
+        width: 20vw;
+    }    
+}
+
+@media(max-width: 1150px) {
+    .card p {
+        font-size: xx-small;
+    }
+
+    .selad {
+        font-size: xx-small;
+    }
+
+    #new {
+        font-size: xx-small;
+    }
+    
+    #proc {
+        font-size: xx-small;
+    }
+    
+    #zav {
+        font-size: xx-small;
+    }
+    
+    #otm {
+        font-size: xx-small;
+    }
+    
+    .btn-new {
+        font-size: xx-small;
+    }
+
+    #cardad {
+        width: 90vw;
+    }  
+    
+    #cardad div {
+        width: 85%;
+    }    
+}
+
+@media(max-width: 950px) {
+    .cardsZwei {
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    .cardZwei {
+        margin-top: 2vh;
+    }
+
+    .cardZwei input {
+        width: 31vw;
+        font-size: xx-small;
+    }
+
+    .cardZwei select {
+        width: 32vw;
+        font-size: xx-small;
+    }    
+    
+    .buttons {
+        width: 25vw;
+    }    
+
+    .buttons button {
+        font-size: xx-small;
+    }
+
+    .cardZwei label {
+        font-size: xx-small;
+    }    
+    
+}
+
+@media(max-width: 830px) {
+    #cardad {
+        flex-direction: column;
+        justify-content: center;
+        width: 30vw;
+        margin-top: 5vh;
+    }
+    
+    #cardad div {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin-left: 0;
+    }
+    
+    .selad {
+        margin-top: 3vw;
+        margin-bottom: 1vh;
+    }    
+}
+
+
+@media(max-width: 820px) {
+    .card {
+        width: 80vw;
+    }    
+}
+
+@media(max-width: 730px) {
+    header div {
+        width: 30vw;
+    }    
+}
+
+@media(max-width: 650px) {
+    .card {
+        flex-direction: column;
+        justify-content: center;
+        width: 35vw;
+        margin-top: 5vh;
+    }
+    
+    .card div {
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        margin-left: 0;
+    }
+    
+    #stat {
+        margin-top: 3vw;
+    }    
+}
+
+@media(max-width: 600px) {
+    #cardad {
+        width: 50vw;
+    } 
+}
+
+@media(max-width: 500px) {
+    .cardZwei input {
+        width: 41vw;
+    }
+
+    .cardZwei select {
+        width: 42vw;
+    }    
+    
+    .buttons {
+        width: 35vw;
+    }    
+}
+
+
+@media(max-width: 490px) {
+    header div {
+        width: 45vw;
+    }    
+}
+
+@media(max-width: 400px) {
+    .card {
+        width: 45vw;
+    }
+}
