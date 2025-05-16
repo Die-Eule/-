@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Подача заявки</title>
+</head>
+<body class="main">
+    <header>
+        <h1>
+            Мой ремонт
+        </h1>
+
+        <div>
+            <a href="admin.html">Администратор</a>
+            <a href="entrance.html">Выйти</a>
+        </div>
+    </header>
+    
+    <div class="content">
+        <form class="contzayav">
+            <div class="cardsZwei">
+                <div class="cardZwei">
+                    <label for="adress">Адрес объекта</label>
+                    <input type="text" required id="adress">
+                </div>
+                <div class="cardZwei">
+                    <label for="">Тип ремонта</label>
+                    <select>
+                        <option value="">Косметичесский ремонт</option>
+                        <option value="">Капитальный ремонт</option>
+                        <option value="">Электромонтаж</option>
+                    </select>
+                </div>
+                <div class="cardZwei">
+                    <label for="date">Дата и время</label>
+                    <input type="datetime-local" id="date">
+                </div>
+                <div class="cardZwei">
+                    <label for="">тип оплаты</label>
+                    <select>
+                        <option value="">Наличными</option>
+                        <option value="">Банковская карта</option>
+                        <option value="">Безналичный расчёт</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button onclick="document.location='main.html'">Отмена</button>
+                <button onclick="document.location='main.html'">Создать</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
