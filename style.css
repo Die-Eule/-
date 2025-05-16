@@ -102,7 +102,7 @@ header div {
     justify-content: space-between;
     align-items: center;
     margin-right: 10vw;
-    width: 10vw;
+    width: 20vw;
 }
 
 header div a {
@@ -278,6 +278,12 @@ header div a:hover {
     }    
 }
 
+@media(max-width: 1350px) {
+    header div {
+        width: 25vw;
+    }    
+}
+
 @media(max-width: 1150px) {
     .card p {
         font-size: xx-small;
@@ -315,6 +321,13 @@ header div a:hover {
         width: 85%;
     }    
 }
+
+@media(max-width: 1000px) {
+    header div {
+        width: 35vw;
+    }    
+}
+
 
 @media(max-width: 950px) {
     .cardsZwei {
@@ -378,9 +391,9 @@ header div a:hover {
     }    
 }
 
-@media(max-width: 730px) {
+@media(max-width: 750px) {
     header div {
-        width: 30vw;
+        width: 45vw;
     }    
 }
 
@@ -425,10 +438,19 @@ header div a:hover {
 }
 
 
-@media(max-width: 490px) {
+@media(max-width: 550px) {
     header div {
-        width: 45vw;
+        width: 60vw;
+        margin-right: 5vw;
     }    
+
+    header div a {
+        font-size: x-small;
+    }
+
+    header h1 {
+        margin-left: 5vw;
+    }
 }
 
 @media(max-width: 400px) {
